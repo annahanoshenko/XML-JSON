@@ -1,0 +1,35 @@
+{
+  "PetStore": {
+    "Pets": [
+      {
+        "id": 1,
+        "name": "Marta",
+        "breed": "monkey"
+      },
+      {
+        "id": 2,
+        "name": "Butch",
+        "breed": "dog"
+      },
+      {
+        "id": 3,
+        "name": "Sirko",
+        "breed": "cat"
+      }
+    ],
+    "Food": {
+      "Milk": " ",
+      "Meat": "Sausage",
+      "Bone": {
+        "type": "chicken",
+        "taste": "tasty"
+      },
+      "Water": "Bonaqua"
+    }
+  }
+}
+
+
+PetStore is the root object.
+Pets is an array of pet objects, each with id, name, and breed properties.
+Food is an object containing various food items. Milk is represented as an empty string because it is self-closing in the XML. Bone is an object with type and taste properties.
